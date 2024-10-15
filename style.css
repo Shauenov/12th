@@ -78,3 +78,30 @@ img{
     color:white;
     padding:12px
 }
+.add{
+    width:110px;
+    border-radius:20px;
+    border:none;
+    background-color: rgb(116, 230, 2);
+}
+.add{
+    display:none;
+}
+.drop:hover .add{
+    display: block;
+}
+.slack:hover .add{
+    display: block;
+}
+.trello:hover .add{
+    display: block;
+}
+.RB:hover .add{
+    display: block;
+}
+.jira:hover .add{
+    display: block;
+}
+.ico:hover .add{
+    display: block;
+}
