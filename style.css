@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(116, 91, 158);
+    height: 100vh;
+}
+.content{
+    background-color: rgb(242, 234, 234);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+   
+    margin:50px 100px 50px 100px;
+    padding: 50px 100px 50px 100px;   
+}
+.qwe{
+    display: flex;
+    flex-direction: row;
+}
+.rty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+.slack, .trello, .RB, .jira, .ico, .drop{
+    margin:15px;
+}
+.drop:hover{
+background-color: white;
+border-radius: 3%;
+padding: 5px;
+box-shadow: 1px 1px 1px 1px black;
+}
+.slack:hover{
+    background-color: white;
+border-radius: 3%;
+padding: 5px;
+box-shadow: 1px 1px 1px 1px black;
+}
+.trello:hover{
+    background-color: white;
+border-radius: 3%;
+padding: 5px;
+box-shadow: 1px 1px 1px 1px black;
+}
+.RB:hover{
+    background-color: white;
+border-radius: 3%;
+padding: 5px;
+box-shadow: 1px 1px 1px 1px black;
+
+}
+.jira:hover{
+    background-color: white;
+border-radius: 3%;
+padding: 5px;
+box-shadow: 1px 1px 1px 1px black;
+}
+.ico:hover{
+    background-color: white;
+border-radius: 3%;
+padding: 5px;
+box-shadow: 1px 1px 1px 1px black;
+}
+img{
+    width: 70px;
+    height:70px;
+}
+.as{
+    margin-top: 12px;
+    background-color: rgb(108, 49, 185);
+    color:white;
+    padding:12px
+}
